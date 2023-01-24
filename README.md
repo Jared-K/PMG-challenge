@@ -29,4 +29,6 @@ Output (combined.csv)
 |63d42170fa2d706101ab713de2313ad3f9a05aa0b1c875a56545cfd69f7101fe|Purses|accessories.csv|
 
 ## Unit Testing
+``python -m unittest test``
+
 Included unit tests that check the functionality of the program
