@@ -1,6 +1,6 @@
 # CSV Combiner
 ## Description
-Command line program that takes several CSV files as arguments. Each CSV file (found in the fixtures directory of this repo) will have the same columns. Outputs a new CSV file to stdout that contains the rows from each of the inputs along with an additional column that has the filename from which the row came.
+Command line program that takes several CSV files as arguments. Each CSV file (found in the fixtures directory of this repo) will have the same columns. Outputs a new CSV file to stdout that contains the rows from each of the inputs along with an additional column that has the filename from which the row came. Requires 2 or more input CSV files.
 
 ## Example
 ``python csvcombiner.py ./fixtures/accessories.csv ./fixtures/clothing.csv > combined.csv``
